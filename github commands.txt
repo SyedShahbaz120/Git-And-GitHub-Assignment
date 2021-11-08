@@ -1,0 +1,17 @@
+// to set username 
+$ git config --global user.name SyedShahbaz120
+// to set email
+$ git config --global user.email syedshahbaz120@gmail.com
+//to view username and email
+$ git config --global user.name
+$ git config --global user.email
+
+//git branch
+
+git branch -d html-assignments
+git merge html-assignments
+git checkout master
+git log -p -2
+git commit -m 'changes in index.html in html-assignments'
+git log
+git add -A
